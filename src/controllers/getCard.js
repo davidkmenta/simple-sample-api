@@ -22,7 +22,8 @@ module.exports.getCard = async (request, response) => {
 
         response.json({state: state.state_description, valid_to: formatDate(validTo)})
     } catch(error) {
-        console.log(error)
-        response.status(500).send(error)
+        console.error(error)
+
+        response.status(500).send(error.message)
     }
 }
