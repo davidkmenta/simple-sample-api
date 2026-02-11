@@ -20,3 +20,12 @@ $ npm start
 API itself runs at `https://localhost:3000/`
 
 OpenAPI specs are available at `http://localhost:3000/docs`
+
+[CR]
+- typescript?
+- endpointy fungují dle zadání
+- bez středníků, nějaký linter nebo proč?
+- bin/www vygenerovaný nebo nějak napsaný?
+- jaká verze node?
+- logování?
+- docker?

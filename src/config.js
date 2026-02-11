@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 if (!process.env.API_KEY) {
-    throw Error('API key must be set!')
+    throw Error('API key must be set!') // [CR] LITACKA_API_URL neni potřeba?
 }
 
 module.exports = {

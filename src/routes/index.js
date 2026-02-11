@@ -11,7 +11,7 @@ const router = express.Router()
  *         description: Everything works
  */
 router.get('/', (request, response) => {
-    response.sendStatus(200)
+    response.sendStatus(200) // [CR] proč text/plain?
 })
 
 module.exports = router
